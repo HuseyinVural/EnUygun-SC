@@ -58,7 +58,6 @@ class MainViewController: UIViewController,SLExpandableTableViewDelegate,SLExpan
         v.secBut.addTarget(self,action:#selector(self.saveFlightButtonAction(_:)),for:.touchUpInside)
         let footerView = UITableViewHeaderFooterView()
         footerView.addSubview(v)
-        
         return footerView
     }
     

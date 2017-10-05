@@ -1,0 +1,46 @@
+PODS:
+  - ObjectMapper (2.2.9)
+  - Realm (2.10.2):
+    - Realm/Headers (= 2.10.2)
+  - Realm/Headers (2.10.2)
+  - RealmSwift (2.10.2):
+    - Realm (= 2.10.2)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxDataSources (1.0.4):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.6.1)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - SLExpandableTableView (1.3.1)
+  - SwiftyJSON (3.1.4)
+  - Swinject (2.1.1)
+
+DEPENDENCIES:
+  - ObjectMapper (~> 2.2)
+  - RealmSwift
+  - RxCocoa (~> 3.0)
+  - RxDataSources (~> 1.0)
+  - RxSwift (~> 3.0)
+  - SDWebImage (~> 4.0)
+  - SLExpandableTableView
+  - SwiftyJSON
+  - Swinject (~> 2.1.0)
+
+SPEC CHECKSUMS:
+  ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
+  Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
+  RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxDataSources: b3389acc5fe2eefb8fcd81a2b76a876ad08bc82a
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  SLExpandableTableView: ff63a4bb4b71c6c3ae2b7cb1cde6a36c1645f23c
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Swinject: afea49fd95f392b41171669f165842879c48fad6
+
+PODFILE CHECKSUM: 226f03014ba0502435141e949969974874555f53
+
+COCOAPODS: 1.3.1
