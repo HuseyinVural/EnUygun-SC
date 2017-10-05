@@ -10,8 +10,9 @@ import Foundation
 import SwiftyJSON
 import ObjectMapper
 
-class MainModel: NSObject {
+class MainModel{
     var jsonDataObj:JSON?
+    
     
     func readJsonData() {
         if let path = Bundle.main.path(forResource: "JData", ofType: "json") {

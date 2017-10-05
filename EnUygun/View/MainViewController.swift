@@ -12,14 +12,10 @@ import SLExpandableTableView
 class MainViewController: UIViewController,SLExpandableTableViewDelegate,SLExpandableTableViewDatasource{
     
     @IBOutlet weak var flightTableView: SLExpandableTableView!
-    var MainViewM:MainViewModel!
-    var beforeSection=0
+    var MainViewM = MainViewModel(mainModel: MainModel())
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.MainViewM = MainViewModel()
-        self.MainViewM.getAllFlight()
         
         self.flightTableView.dataSource = self
         self.flightTableView.delegate = self

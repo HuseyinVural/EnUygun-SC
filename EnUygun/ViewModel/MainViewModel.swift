@@ -11,12 +11,16 @@ import SwiftyJSON
 import SDWebImage
 import ObjectMapper
 
-class MainViewModel: NSObject {
+class MainViewModel{
     
-    var mainModel:MainModel=MainModel()
+    var mainModel:MainModel!
     var jsonDataObj:JSON?
     var flightCount:Int = 0
-
+    
+    init(mainModel:MainModel) {
+        self.mainModel = mainModel
+        self.getAllFlight()
+    }
     
     func getAllFlight(){
         mainModel.readJsonData()
