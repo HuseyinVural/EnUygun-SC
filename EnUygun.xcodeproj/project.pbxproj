@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		061B0BC11F840E0E00F233D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BC01F840E0E00F233D4 /* AppDelegate.swift */; };
-		061B0BC31F840E0E00F233D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BC21F840E0E00F233D4 /* ViewController.swift */; };
+		061B0BC31F840E0E00F233D4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BC21F840E0E00F233D4 /* MainViewController.swift */; };
 		061B0BC61F840E0E00F233D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061B0BC41F840E0E00F233D4 /* Main.storyboard */; };
 		061B0BC81F840E0E00F233D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061B0BC71F840E0E00F233D4 /* Assets.xcassets */; };
 		061B0BCB1F840E0E00F233D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061B0BC91F840E0E00F233D4 /* LaunchScreen.storyboard */; };
+		061B0BD61F84173D00F233D4 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BD51F84173D00F233D4 /* Flight.swift */; };
+		061B0BD81F84176200F233D4 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BD71F84176200F233D4 /* MainModel.swift */; };
+		061B0BDF1F84256200F233D4 /* JData.json in Resources */ = {isa = PBXBuildFile; fileRef = 061B0BDB1F8421C000F233D4 /* JData.json */; };
+		061B0BE11F844F7700F233D4 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BE01F844F7700F233D4 /* MainViewModel.swift */; };
+		061B0BE31F84536700F233D4 /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BE21F84536700F233D4 /* Airports.swift */; };
+		061B0BE51F8453A700F233D4 /* Airlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BE41F8453A700F233D4 /* Airlines.swift */; };
+		061B0BE71F84AFF300F233D4 /* FlightViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BE61F84AFF300F233D4 /* FlightViewCell.swift */; };
+		061B0BEA1F84FF5A00F233D4 /* FlightInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BE91F84FF5A00F233D4 /* FlightInfoViewCell.swift */; };
+		061B0BEC1F85215F00F233D4 /* TableEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BEB1F85215F00F233D4 /* TableEx.swift */; };
+		061B0BF21F85670B00F233D4 /* FlightCutomFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 061B0BF11F85670B00F233D4 /* FlightCutomFooterView.xib */; };
+		061B0BF41F85671900F233D4 /* FlightCutomFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BF31F85671900F233D4 /* FlightCutomFooterView.swift */; };
+		061B0BFA1F8582F800F233D4 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BF91F8582F800F233D4 /* Const.swift */; };
+		061B0BFD1F858E9400F233D4 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B0BFC1F858E9400F233D4 /* RealmService.swift */; };
+		A33108D815068B472FF3BA91 /* Pods_EnUygun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA8C0AF9327038BA44D2709 /* Pods_EnUygun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		061B0BBD1F840E0E00F233D4 /* EnUygun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnUygun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		061B0BC01F840E0E00F233D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		061B0BC21F840E0E00F233D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		061B0BC21F840E0E00F233D4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		061B0BC51F840E0E00F233D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		061B0BC71F840E0E00F233D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		061B0BCA1F840E0E00F233D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061B0BCC1F840E0E00F233D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		061B0BD51F84173D00F233D4 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		061B0BD71F84176200F233D4 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		061B0BDB1F8421C000F233D4 /* JData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JData.json; sourceTree = "<group>"; };
+		061B0BE01F844F7700F233D4 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		061B0BE21F84536700F233D4 /* Airports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
+		061B0BE41F8453A700F233D4 /* Airlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airlines.swift; sourceTree = "<group>"; };
+		061B0BE61F84AFF300F233D4 /* FlightViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewCell.swift; sourceTree = "<group>"; };
+		061B0BE91F84FF5A00F233D4 /* FlightInfoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoViewCell.swift; sourceTree = "<group>"; };
+		061B0BEB1F85215F00F233D4 /* TableEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableEx.swift; sourceTree = "<group>"; };
+		061B0BF11F85670B00F233D4 /* FlightCutomFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightCutomFooterView.xib; sourceTree = "<group>"; };
+		061B0BF31F85671900F233D4 /* FlightCutomFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCutomFooterView.swift; sourceTree = "<group>"; };
+		061B0BF91F8582F800F233D4 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		061B0BFC1F858E9400F233D4 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		29C755B4FF568329447F1461 /* Pods-EnUygun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnUygun.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnUygun/Pods-EnUygun.release.xcconfig"; sourceTree = "<group>"; };
+		7CA8C0AF9327038BA44D2709 /* Pods_EnUygun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnUygun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF72C72CBF40761A8846896 /* Pods-EnUygun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnUygun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnUygun/Pods-EnUygun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A33108D815068B472FF3BA91 /* Pods_EnUygun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				061B0BBF1F840E0E00F233D4 /* EnUygun */,
 				061B0BBE1F840E0E00F233D4 /* Products */,
+				C31E6E09A8D630BFDDD86940 /* Pods */,
+				A67E27FBD9799F1833B466D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,84 @@
 		061B0BBF1F840E0E00F233D4 /* EnUygun */ = {
 			isa = PBXGroup;
 			children = (
+				061B0BFB1F858E6400F233D4 /* Service */,
+				061B0BD41F8415B800F233D4 /* ViewModel */,
+				061B0BD31F8415A600F233D4 /* View */,
+				061B0BD21F84159200F233D4 /* Model */,
 				061B0BC01F840E0E00F233D4 /* AppDelegate.swift */,
-				061B0BC21F840E0E00F233D4 /* ViewController.swift */,
 				061B0BC41F840E0E00F233D4 /* Main.storyboard */,
 				061B0BC71F840E0E00F233D4 /* Assets.xcassets */,
 				061B0BC91F840E0E00F233D4 /* LaunchScreen.storyboard */,
+				061B0BDB1F8421C000F233D4 /* JData.json */,
 				061B0BCC1F840E0E00F233D4 /* Info.plist */,
+				061B0BEB1F85215F00F233D4 /* TableEx.swift */,
 			);
 			path = EnUygun;
+			sourceTree = "<group>";
+		};
+		061B0BD21F84159200F233D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				061B0BD71F84176200F233D4 /* MainModel.swift */,
+				061B0BD51F84173D00F233D4 /* Flight.swift */,
+				061B0BE21F84536700F233D4 /* Airports.swift */,
+				061B0BE41F8453A700F233D4 /* Airlines.swift */,
+				061B0BF91F8582F800F233D4 /* Const.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		061B0BD31F8415A600F233D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				061B0BFE1F85AC2D00F233D4 /* FlightCustomFooterView */,
+				061B0BC21F840E0E00F233D4 /* MainViewController.swift */,
+				061B0BE61F84AFF300F233D4 /* FlightViewCell.swift */,
+				061B0BE91F84FF5A00F233D4 /* FlightInfoViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		061B0BD41F8415B800F233D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				061B0BE01F844F7700F233D4 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		061B0BFB1F858E6400F233D4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				061B0BFC1F858E9400F233D4 /* RealmService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		061B0BFE1F85AC2D00F233D4 /* FlightCustomFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				061B0BF11F85670B00F233D4 /* FlightCutomFooterView.xib */,
+				061B0BF31F85671900F233D4 /* FlightCutomFooterView.swift */,
+			);
+			path = FlightCustomFooterView;
+			sourceTree = "<group>";
+		};
+		A67E27FBD9799F1833B466D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CA8C0AF9327038BA44D2709 /* Pods_EnUygun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C31E6E09A8D630BFDDD86940 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBF72C72CBF40761A8846896 /* Pods-EnUygun.debug.xcconfig */,
+				29C755B4FF568329447F1461 /* Pods-EnUygun.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 061B0BCF1F840E0E00F233D4 /* Build configuration list for PBXNativeTarget "EnUygun" */;
 			buildPhases = (
+				78E4C20F7E96891C916692DD /* [CP] Check Pods Manifest.lock */,
 				061B0BB91F840E0E00F233D4 /* Sources */,
 				061B0BBA1F840E0E00F233D4 /* Frameworks */,
 				061B0BBB1F840E0E00F233D4 /* Resources */,
+				3C370CA6C17A43D95E214BDD /* [CP] Embed Pods Frameworks */,
+				2C347179872F4E938FFEC2C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +231,104 @@
 			files = (
 				061B0BCB1F840E0E00F233D4 /* LaunchScreen.storyboard in Resources */,
 				061B0BC81F840E0E00F233D4 /* Assets.xcassets in Resources */,
+				061B0BDF1F84256200F233D4 /* JData.json in Resources */,
 				061B0BC61F840E0E00F233D4 /* Main.storyboard in Resources */,
+				061B0BF21F85670B00F233D4 /* FlightCutomFooterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C347179872F4E938FFEC2C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnUygun/Pods-EnUygun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C370CA6C17A43D95E214BDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EnUygun/Pods-EnUygun-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SLExpandableTableView/SLExpandableTableView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SLExpandableTableView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnUygun/Pods-EnUygun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E4C20F7E96891C916692DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnUygun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		061B0BB91F840E0E00F233D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				061B0BC31F840E0E00F233D4 /* ViewController.swift in Sources */,
+				061B0BE71F84AFF300F233D4 /* FlightViewCell.swift in Sources */,
+				061B0BE11F844F7700F233D4 /* MainViewModel.swift in Sources */,
+				061B0BE51F8453A700F233D4 /* Airlines.swift in Sources */,
+				061B0BF41F85671900F233D4 /* FlightCutomFooterView.swift in Sources */,
+				061B0BD81F84176200F233D4 /* MainModel.swift in Sources */,
+				061B0BFA1F8582F800F233D4 /* Const.swift in Sources */,
+				061B0BEA1F84FF5A00F233D4 /* FlightInfoViewCell.swift in Sources */,
+				061B0BD61F84173D00F233D4 /* Flight.swift in Sources */,
+				061B0BC31F840E0E00F233D4 /* MainViewController.swift in Sources */,
+				061B0BFD1F858E9400F233D4 /* RealmService.swift in Sources */,
+				061B0BEC1F85215F00F233D4 /* TableEx.swift in Sources */,
 				061B0BC11F840E0E00F233D4 /* AppDelegate.swift in Sources */,
+				061B0BE31F84536700F233D4 /* Airports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +463,13 @@
 		};
 		061B0BD01F840E0E00F233D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF72C72CBF40761A8846896 /* Pods-EnUygun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2G273UB5Q;
 				INFOPLIST_FILE = EnUygun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hvlab.EnUygun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +480,13 @@
 		};
 		061B0BD11F840E0E00F233D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C755B4FF568329447F1461 /* Pods-EnUygun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2G273UB5Q;
 				INFOPLIST_FILE = EnUygun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hvlab.EnUygun;
 				PRODUCT_NAME = "$(TARGET_NAME)";

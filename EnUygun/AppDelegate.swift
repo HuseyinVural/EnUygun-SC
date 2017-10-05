@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  EnUygun
 //
-//  Created by Hüseyin Vural on 3.10.2017.
+//  Created by Hüseyin Vural on 4.10.2017.
 //  Copyright © 2017 Hüseyin Vural. All rights reserved.
 //
 
@@ -12,7 +12,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
