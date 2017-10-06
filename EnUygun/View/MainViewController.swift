@@ -54,8 +54,9 @@ class MainViewController: UIViewController,SLExpandableTableViewDelegate,SLExpan
         v.tag = 34123124124
         v.secBut.tag = Int(section)
         v.delegate = self
-        //Bir soru ? sence delegete protocolu kullanmayıp sadece delegete varible ındaki self referansında secButClick methodunu çağırsaydık bir perfoormans kaybı yaşarmıydık, protocolün burdaki avantajı sadece bizi methodu yazmaya zorlamak mı olmuş oldu
-        
+        //Bir soru ? sence delegete protocolu kullanmayıp sadece delegete varible ındaki self referansında secButClick methodunu çağırsaydık bir perfoormans kaybı yaşarmıydık,
+        //protocolün burdaki avantajı sadece bizi methodu yazmaya zorlamak mı olmuş oldu
+        // Her view için ayrı bir delegete set etmiş olmanın nasıl bir zararı olabilir
         let footerView = UITableViewHeaderFooterView()
         footerView.addSubview(v)
         return footerView

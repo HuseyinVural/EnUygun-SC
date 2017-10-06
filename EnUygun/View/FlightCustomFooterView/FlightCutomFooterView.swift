@@ -22,15 +22,11 @@ class FlightCutomFooterView: UIView ,FlightCutomFooterViewDelegate{
     
     
     @IBAction func secButClick(_ sender: UIButton) {
-        print("click")
-        print(delegate)
         self.delegate?.secButClick(selection: sender.tag)
     }
     
     
-    func secButClick(selection: Int) {
-        print("delege main int")
-    }
+    func secButClick(selection: Int) {}
     
     
     // MARK: - Initializers
