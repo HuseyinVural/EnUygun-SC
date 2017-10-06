@@ -36,6 +36,9 @@
                     <state key="normal" title="SEÇ">
                         <color key="titleColor" red="0.39311435820000001" green="0.62891763450000004" blue="0.1828571558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="secButClick:" destination="-1" eventType="touchUpInside" id="xCN-DD-N8x"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="▼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhD-kI-mh3">
                     <rect key="frame" x="9" y="3" width="15" height="21"/>

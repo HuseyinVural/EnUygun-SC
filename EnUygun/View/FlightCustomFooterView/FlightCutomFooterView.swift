@@ -8,9 +8,30 @@
 
 import UIKit
 
-class FlightCutomFooterView: UIView {
+protocol FlightCutomFooterViewDelegate {
+    func secButClick(selection:Int)
+}
+
+class FlightCutomFooterView: UIView ,FlightCutomFooterViewDelegate{
+    
+    var delegate: FlightCutomFooterViewDelegate?
+
+
     @IBOutlet weak var secBut: UIButton!
     @IBOutlet weak var yonBut: UILabel!
+    
+    
+    @IBAction func secButClick(_ sender: UIButton) {
+        print("click")
+        print(delegate)
+        self.delegate?.secButClick(selection: sender.tag)
+    }
+    
+    
+    func secButClick(selection: Int) {
+        print("delege main int")
+    }
+    
     
     // MARK: - Initializers
     
@@ -23,6 +44,8 @@ class FlightCutomFooterView: UIView {
         super.init(coder: aDecoder)
         setupView()
     }
+    
+    
     
     // MARK: - Private Helper Methods
     

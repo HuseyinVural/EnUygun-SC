@@ -9,7 +9,8 @@ import UIKit
 import SwiftyJSON
 import SLExpandableTableView
 
-class MainViewController: UIViewController,SLExpandableTableViewDelegate,SLExpandableTableViewDatasource{
+class MainViewController: UIViewController,SLExpandableTableViewDelegate,SLExpandableTableViewDatasource,FlightCutomFooterViewDelegate{
+
     
     @IBOutlet weak var flightTableView: SLExpandableTableView!
     var MainViewM = MainViewModel(mainModel: MainModel())
@@ -17,6 +18,7 @@ class MainViewController: UIViewController,SLExpandableTableViewDelegate,SLExpan
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    
         self.flightTableView.dataSource = self
         self.flightTableView.delegate = self
         
@@ -51,7 +53,9 @@ class MainViewController: UIViewController,SLExpandableTableViewDelegate,SLExpan
         let v = FlightCutomFooterView(frame:CGRect(x: 0, y: 0, width: tableView.frame.width - 0, height: 35))
         v.tag = 34123124124
         v.secBut.tag = Int(section)
-        v.secBut.addTarget(self,action:#selector(self.saveFlightButtonAction(_:)),for:.touchUpInside)
+        v.delegate = self
+        //Bir soru ? sence delegete protocolu kullanmayıp sadece delegete varible ındaki self referansında secButClick methodunu çağırsaydık bir perfoormans kaybı yaşarmıydık, protocolün burdaki avantajı sadece bizi methodu yazmaya zorlamak mı olmuş oldu
+        
         let footerView = UITableViewHeaderFooterView()
         footerView.addSubview(v)
         return footerView
@@ -85,16 +89,14 @@ class MainViewController: UIViewController,SLExpandableTableViewDelegate,SLExpan
         self.MainViewM.changeFooterComponent(footer: footer, direction: .Coll)
     }
     
-    @objc func saveFlightButtonAction(_ sender:UIButton){
-        if sender.tag > 0{
-            self.MainViewM.saveFlight(index: sender.tag)
-        }
-    }
 
-    
+    func secButClick(selection: Int) {
+        self.MainViewM.saveFlight(index: selection)
+    }
     
 
 }
+
 
 
 
